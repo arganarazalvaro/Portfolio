@@ -22,7 +22,8 @@ export default function HTML({
         <meta property="og:title" content="Portfolio - Alvaro Argañaraz" />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://arganarazalvaro.netlify.app/" />
-        <meta property="og:image" content="https://drive.google.com/file/d/1U8r3Bpg4oTl0TsvN6vZyOVtlq0S4CsMg/view?usp=sharing" />
+        <meta property="og:image" content="https://i.postimg.cc/VvsXSKMS/capture1.jpg" />
+        <meta property="og:description" content="Would you like to know more about my skills and projects?" />
         {headComponents}
       </head>
       <body {...bodyAttributes}>

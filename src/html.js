@@ -23,7 +23,7 @@ export default function HTML({
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://arganarazalvaro.netlify.app/" />
         <meta property="og:image" content="https://i.postimg.cc/VvsXSKMS/capture1.jpg" />
-        <meta property="og:description" content="Would you like to know more about my skills and projects?" />
+        <meta property="og:description" content="Hi! I am Alvaro Argañaraz, a front end developer. Would you like to know more about my skills and projects?" />
         {headComponents}
       </head>
       <body {...bodyAttributes}>

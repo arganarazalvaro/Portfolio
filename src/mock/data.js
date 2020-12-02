@@ -11,22 +11,31 @@ export const headData = {
 export const heroData = {
   title: '',
   name: 'Alvaro Argañaraz',
-  subtitle: "I'm a Front End Developer",
+  subtitle: "I'm a Full Stack Developer",
   cta: '',
 };
 
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: "Hi! I'm Alvaro Argañaraz, a Front End developer. I love learning new technologies and facing challenges to grow and improve.",
-  paragraphTwo: "My skills include HTML5, CSS3, Bootstrap 4, SASS, Javascript ES6+, React.js Hooks, Redux, Jquery, Git, and more.",
+  paragraphOne: "Hi! I'm Alvaro Argañaraz, a full stack developer. I love learning new technologies and facing challenges to grow and improve.",
+  paragraphTwo: "My skills include HTML5, CSS3, Bootstrap 4, SASS, Javascript ES6+, React.js Hooks, JQuery, Node.js, Express, MongoDB, Git, and more.",
   paragraphThree: "I studied engineering and management, which helped me gain soft skills and experience, which add to my skills as a developer. You can read more about my studies, skills, experiences and education in my resume below.",
-  resume: 'https://drive.google.com/file/d/1JTvsI-BRaoQYPKGWfzO2hnJQF6UQf_x7/view?usp=sharing', // if no resume, the button will not show up
+  resume: 'https://drive.google.com/file/d/1IacyWZdaNK9VYcZQlEwf4SwTMf_2fvn5/view?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
 export const projectsData = [
-  {
+    {
+    id: nanoid(),
+    img: 'acunac.jpg',
+    title: 'Asociación de Cultura Naturista de Córdoba',
+    info: 'This is a website for a naturist non-profit organization.',
+    info2: 'It was made with JavaScript, Gatsby and SASS.',
+    url: 'https://acunac.netlify.app/',
+    repo: 'https://github.com/arganarazalvaro/Asociacion-Cultura-Naturista-Cordoba', // if no repo, the button will not show up
+  },
+    {
     id: nanoid(),
     img: 'ReactMovies.JPG',
     title: 'React Movies',
@@ -35,6 +44,7 @@ export const projectsData = [
     url: 'https://awesome-react-movies.netlify.app/',
     repo: 'https://github.com/arganarazalvaro/react-movies', // if no repo, the button will not show up
   },
+  /*
     {
     id: nanoid(),
     img: 'Recipe.JPG',
@@ -44,6 +54,7 @@ export const projectsData = [
     url: 'https://amazing-recipe.netlify.app/',
     repo: 'https://github.com/arganarazalvaro/recipes-aplication', // if no repo, the button will not show up
   },
+ */
   {
     id: nanoid(),
     img: 'Consultora.JPG',
@@ -52,6 +63,15 @@ export const projectsData = [
     info2: 'It was made with HTML5, CSS3 and JavaScript.',
     url: 'https://arganarazalvaro.github.io/consultoraarganaraz/',
     repo: 'https://github.com/arganarazalvaro/consultoraarganaraz', // if no repo, the button will not show up
+  },
+    {
+    id: nanoid(),
+    img: 'SuperheroAPI.JPG',
+    title: 'Superhero API',
+    info: 'This Back End project uses Marvel´s API to get a lot of data about superheroes.',
+    info2: 'This API was made with Node.js, Express, Mongoose and MongoDB Atlas.',
+    url: 'https://github.com/arganarazalvaro/Superheros-Api',
+    repo: 'https://github.com/arganarazalvaro/Superheros-Api', // if no repo, the button will not show up
   },
 ];
 

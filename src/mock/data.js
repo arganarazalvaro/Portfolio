@@ -30,8 +30,8 @@ export const projectsData = [
     id: nanoid(),
     img: 'acunac.jpg',
     title: 'Asociación de Cultura Naturista de Córdoba',
-    info: 'This is a website for a naturist non-profit organization.',
-    info2: 'It was made with JavaScript, Gatsby and SASS.',
+    info: 'Non-profit naturist organization website.',
+    info2: 'Developed with JavaScript, React, Gatsby and SASS.',
     url: 'https://acunac.netlify.app/',
     repo: 'https://github.com/arganarazalvaro/Asociacion-Cultura-Naturista-Cordoba', // if no repo, the button will not show up
   },
@@ -60,7 +60,7 @@ export const projectsData = [
     img: 'Consultora.JPG',
     title: 'Argañaraz Consultores',
     info: 'This is a website for a business consulting company. ',
-    info2: 'It was made with HTML5, CSS3 and JavaScript.',
+    info2: 'Built with HTML5, CSS3 and JavaScript.',
     url: 'https://arganarazalvaro.github.io/consultoraarganaraz/',
     repo: 'https://github.com/arganarazalvaro/consultoraarganaraz', // if no repo, the button will not show up
   },
@@ -69,7 +69,7 @@ export const projectsData = [
     img: 'SuperheroAPI.JPG',
     title: 'Superhero API',
     info: 'This Back End project uses Marvel´s API to get a lot of data about superheroes.',
-    info2: 'This API was made with Node.js, Express, Mongoose and MongoDB Atlas.',
+    info2: 'API developed with Node.js, Express, Mongoose and MongoDB Atlas.',
     url: 'https://github.com/arganarazalvaro/Superheros-Api',
     repo: 'https://github.com/arganarazalvaro/Superheros-Api', // if no repo, the button will not show up
   },

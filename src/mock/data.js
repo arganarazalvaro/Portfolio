@@ -59,7 +59,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'Consultora.JPG',
     title: 'Argañaraz Consultores',
-    info: 'This is a website for a business consulting company. ',
+    info: 'This is a website for a business consulting company.',
     info2: 'Built with HTML5, CSS3 and JavaScript.',
     url: 'https://arganarazalvaro.github.io/consultoraarganaraz/',
     repo: 'https://github.com/arganarazalvaro/consultoraarganaraz', // if no repo, the button will not show up

@@ -32,7 +32,7 @@ export const projectsData = [
     title: 'Asociación de Cultura Naturista de Córdoba',
     info: 'Non-profit naturist organization website.',
     info2: 'Developed with JavaScript, React, Gatsby and SASS.',
-    url: 'https://acunac.netlify.app/',
+    url: 'https://www.acunac.ml/',
     repo: 'https://github.com/arganarazalvaro/Asociacion-Cultura-Naturista-Cordoba', // if no repo, the button will not show up
   },
     {
